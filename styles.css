@@ -8,42 +8,46 @@ body {
   font-family: Arial, sans-serif;
 }
 
-#header-img {
-  width: 120px;
- 
-  
-}
-
 header {
-  position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0;
+    padding: 15px 20px 1px 15px;
     background: white;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     z-index: 1000;
 }
 
+.sot {
+    height: 80px;
+    width: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  padding: 50px;
+}
+
 #nav-bar {
-  display: flex;
-  gap: 20px;
+    display: flex;
+    gap: 30px;
 }
 
 .nav-link {
-  color: #333;
-  text-decoration: none;
-  padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
 }
 
 .hero {
-  margin-top: 140px;
-  margin-bottom: 0;
-  padding: 20px 20px 0px;
-  text-align: center;
+    padding-top: 100px; /* Space for fixed header */
 }
 
 
@@ -61,12 +65,12 @@ header {
 }
 
 .logo-yamaha {
-  height: 140px;
+  height: 150px;
   width: auto;
 }
 
 .logo-kawasaki {
-  height: 110px;
+  height:100px;
   width: auto;
 }
 
