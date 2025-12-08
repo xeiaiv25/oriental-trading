@@ -262,8 +262,10 @@ footer p {
 
     /* HEADER / NAVBAR */
     header {
-        padding: 10px 50px;
+        flex-direction: column;
+        padding: 10px 15px;
         gap: 15px;
+        align-items: center;
     }
 
     .sot {
@@ -271,8 +273,10 @@ footer p {
   }
   
   #nav-bar {
-      gap: 10px;
-      justify-content: center;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
   }
   
   .nav-link {
