@@ -251,13 +251,13 @@ footer p {
     
     /* HEADER / NAVBAR */
     header {
-        flex-direction: column;
-        padding: 10px 15px;
+        flex-direction: row;
+        padding: 10px 50px;
         gap: 15px;
     }
 
     .sot {
-      height: 60px;  /* Smaller logo on mobile */
+      height: 50px;  /* Smaller logo on mobile */
   }
   
   #nav-bar {
@@ -269,7 +269,7 @@ footer p {
   
   .nav-link {
       font-size: 14px;
-      padding: 8px;
+      padding: 2px;
   }
   
   /* HERO SECTION */
