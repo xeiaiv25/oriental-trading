@@ -250,7 +250,7 @@ footer p {
 @media (max-width: 768px) {
     
     html {
-        scroll-padding-top: 80px;  /* More space for taller mobile header */
+        scroll-padding-top: 180px;  /* More space for taller mobile header */
     }
 
 
