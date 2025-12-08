@@ -249,6 +249,17 @@ footer p {
 /* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
     
+    html {
+        scroll-padding-top: 200px;  /* More space for taller mobile header */
+    }
+    
+    /* OR use section margin: */
+    #products,
+    #contact {
+        scroll-margin-top: 200px;
+    }
+
+
     /* HEADER / NAVBAR */
     header {
         flex-direction: row;
