@@ -250,7 +250,7 @@ footer p {
 @media (max-width: 768px) {
     
     html {
-        scroll-padding-top: 50px;  /* More space for taller mobile header */
+        scroll-padding-top: 80px;  /* More space for taller mobile header */
     }
 
 
@@ -280,7 +280,7 @@ footer p {
   
   /* HERO SECTION */
   .hero {
-      padding-top: 50px;  /* More space for taller mobile header */
+      padding-top: 200px;  /* More space for taller mobile header */
   }
   
   .hero h1 {
