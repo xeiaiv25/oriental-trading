@@ -250,7 +250,7 @@ footer p {
 @media (max-width: 768px) {
     
     html {
-        scroll-padding-top: 200px;  /* More space for taller mobile header */
+        scroll-padding-top: 100px;  /* More space for taller mobile header */
     }
     
     /* OR use section margin: */
@@ -269,7 +269,7 @@ footer p {
     }
 
     .sot {
-      height: 50px;  /* Smaller logo on mobile */
+        height: 50px;  /* Smaller logo on mobile */
   }
   
   #nav-bar {
@@ -280,8 +280,8 @@ footer p {
   }
   
   .nav-link {
-      font-size: 14px;
-      padding: 2px;
+        font-size: 14px;
+        padding: 2px;
   }
   
   /* HERO SECTION */
