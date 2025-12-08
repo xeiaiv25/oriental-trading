@@ -269,7 +269,7 @@ footer p {
   #nav-bar {
         display: flex;
         flex-direction: row;
-        gap: 10px;
+        gap: 15px;
         justify-content: center;
   }
   
@@ -280,7 +280,7 @@ footer p {
   
   /* HERO SECTION */
   .hero {
-      padding-top: 180px;  /* More space for taller mobile header */
+      padding-top: 150px;  /* More space for taller mobile header */
   }
   
   .hero h1 {
