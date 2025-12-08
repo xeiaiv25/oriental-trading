@@ -262,7 +262,6 @@ footer p {
 
     /* HEADER / NAVBAR */
     header {
-        flex-direction: row;
         padding: 10px 50px;
         gap: 15px;
     }
