@@ -272,10 +272,8 @@ footer p {
   }
   
   #nav-bar {
-      flex-direction: column;
       gap: 10px;
-      text-align: center;
-      width: 100%;
+      justify-content: center;
   }
   
   .nav-link {
