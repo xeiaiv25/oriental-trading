@@ -252,12 +252,6 @@ footer p {
     html {
         scroll-padding-top: 100px;  /* More space for taller mobile header */
     }
-    
-    /* OR use section margin: */
-    #products,
-    #contact {
-        scroll-margin-top: 200px;
-    }
 
 
     /* HEADER / NAVBAR */
@@ -269,7 +263,7 @@ footer p {
     }
 
     .sot {
-        height: 50px;  /* Smaller logo on mobile */
+        height: 60px;  /* Smaller logo on mobile */
   }
   
   #nav-bar {
