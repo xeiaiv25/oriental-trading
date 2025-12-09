@@ -280,7 +280,7 @@ footer p {
   
   /* HERO SECTION */
   .hero {
-      padding-top: 180px;  /* More space for taller mobile header */
+      padding-top: 160px;  /* More space for taller mobile header */
   }
   
   .hero h1 {
